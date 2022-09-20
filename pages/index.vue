@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Xin chao</h1>
-    <h2>Hello world</h2>
+    <h1>Master</h1>
     <Tutorial />
   </div>
 </template>

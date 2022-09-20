@@ -1,5 +1,8 @@
 <template>
-  <Tutorial />
+  <div>
+    <h1>Xin chao</h1>
+    <Tutorial />
+  </div>
 </template>
 
 <script lang="ts">

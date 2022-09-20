@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Develop</h1>
+    <h1>Master</h1>
     <Tutorial />
   </div>
 </template>

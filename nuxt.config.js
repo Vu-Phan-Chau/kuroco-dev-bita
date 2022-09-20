@@ -1,10 +1,13 @@
+const environment = process.env.NODE_ENV
+const { META_TITLE } = require(`./env.${environment}.js`)
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'kuroco-bita',
+    title: META_TITLE,
     htmlAttrs: {
       lang: 'en',
     },

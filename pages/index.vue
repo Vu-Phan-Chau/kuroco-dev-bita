@@ -2,6 +2,7 @@
   <div>
     <h1>Develop</h1>
     <h2>Title demo</h2>
+    <p>API SECRET: {{ $config.API_SECRET }}</p>
     <Tutorial />
   </div>
 </template>

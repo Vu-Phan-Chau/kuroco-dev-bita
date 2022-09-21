@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     branches: [ develop ]
 env:
-  BASE_URL: ${{secrets.NUXT_ENV_API_SECRET}}
+  NUXT_ENV_API_SECRET: ${{secrets.NUXT_ENV_API_SECRET}}
 jobs:
   # for Pull Request (exclude merged)
   pullreq_build:
